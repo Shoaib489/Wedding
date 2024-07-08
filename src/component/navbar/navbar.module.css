@@ -1,0 +1,78 @@
+.maiNavbar {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    right: 0;
+    left: 0;
+    z-index: 200;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1300px;
+    /* border: none; */
+    /* border: 1px solid; */
+    height: 80px;
+    margin: auto;
+    padding: 0 20px;
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 20;
+    color: black;
+    position: relative;
+}
+
+.headingStyle {
+    font-size: 27px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+}
+
+.changeFont {
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: all 1s;
+}
+
+.checkboxN {
+    display: none;
+}
+
+.label1 {
+    display: none;
+}
+
+@media screen and (max-width:930px) {
+    .changeFont {
+        display: flex;
+        gap: 25px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:682px) {
+    .changeFont {
+        position: absolute;
+        flex-direction: column;
+        border-bottom: 2px solid rgba(114, 114, 114, 0.538);
+        left: 0;
+
+        top: -380%;
+        width: 100%;
+        padding: 20px 20px 20px;
+        margin: 0;
+        background-color: #f7f7f7;
+    }
+
+    .label1 {
+        padding-top: 7px;
+        display: block;
+    }
+
+    .checkboxN:checked+.changeFont {
+        top: 80px;
+
+    }
+}

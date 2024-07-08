@@ -1,0 +1,130 @@
+.backgroundgrey {
+    background-image: url(https://img.freepik.com/free-vector/white-abstract-background_23-2148831503.jpg);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    width: 100%;
+    min-height: 600px;
+    z-index: -1;
+    /* transition: all 1s; */
+
+}
+
+.fixMinwidth {
+    padding: 20px;
+    max-width: 1300px;
+    margin: auto;
+    z-index: -100;
+    /* transition: all 1s; */
+
+}
+
+.gridCards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 25px;
+    transition: all 1s;
+
+}
+.outMainCards {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    border-radius: 7px;
+    transition: all 1s ;
+
+}
+
+.outMainCards:hover {
+    top: 5px; /* Example change on hover */
+}
+
+
+
+.textOnImg {
+    position: absolute;
+    text-align: center;
+    /* border: 3px solid ; */
+    bottom: 60px;
+
+}
+
+.wedCrads {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.imagefit {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.left {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(37, 37, 37, 0.873);
+    color: white;
+    position: absolute;
+    left: 0;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 50px;
+    cursor: pointer;
+
+
+}
+
+.left:hover {
+    background-color: black;
+}
+
+.leftIconsize {
+    width: 50px;
+    height: 50px;
+    font-weight: 800;
+    padding-right: 5px;
+}
+
+.right {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(37, 37, 37, 0.858);
+    color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    bottom: 50px;
+    cursor: pointer;
+}
+
+.right:hover {
+    background-color: black;
+}
+
+
+.rightIconsize {
+    width: 50px;
+    height: 50px;
+    font-weight: 800;
+    padding-left: 5px;
+}

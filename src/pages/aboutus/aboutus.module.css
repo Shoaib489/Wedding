@@ -1,0 +1,44 @@
+.cameraback {
+    background-image: url("/images/camera.jpg");
+    height: 875px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: -100px;
+    position: relative;
+    background-position: center;
+}
+
+.newCards {
+    /* margin-top: 30px; */
+    border-radius: 7px;
+    /* border: 1px solid; */
+    max-width: 400px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    background-color: #F3F4F6;
+    box-shadow: rgba(100, 100, 111, 0.392) 0px 7px 29px 0px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.greyback{
+    background-image: url(https://img.freepik.com/free-vector/white-abstract-background_23-2148831503.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 700px;
+    margin-top: -100px;
+}
+
+@media screen and (max-width:410px) {
+    .newCards{
+        padding: 25px 10px;
+
+    }
+}
