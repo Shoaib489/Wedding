@@ -21,7 +21,7 @@ const AboutUs = () => {
         <h1 className='text-[30px] font-semibold underline text-center mt-6'>Our Team</h1>
         <div className={classes.newCards}>
           <div className='w-[100px] h-[100px] '>
-            <img className=' rounded-full w-[100px] h-[100px] object-cover' src="https://s3-wedding.s3.ap-south-1.amazonaws.com/16871452065421686827776194caption%20%281%29.jpg" alt="" />
+            {/* <img className=' rounded-full w-[100px] h-[100px] object-cover' src="https://s3-wedding.s3.ap-south-1.amazonaws.com/16871452065421686827776194caption%20%281%29.jpg" alt="" /> */}
           </div>
           <p className='text-[20px] font-bold'>Olivia Rhye</p>
           <p className='text-[18px] font-semibold'>Founder & CEO</p>

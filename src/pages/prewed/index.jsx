@@ -6,7 +6,7 @@ import classes from "../../component/weddingCrads/weddingcards.module.css"
 
 const PreWedding = () => {
 
-  const remove = Data.splice(5);
+  // const remove = Data.splice(5);
 
 
   return (

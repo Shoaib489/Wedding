@@ -2,6 +2,7 @@ import React from 'react'
 import classes from "./weddingcards.module.css"
 import { Data } from '@/utility/data/wedcardsData'
 import { IconChevronLeft, IconChevronRight, IconStarFilled } from '@tabler/icons-react';
+import Image from 'next/image';
 
 
 const WeddingCards = () => {
