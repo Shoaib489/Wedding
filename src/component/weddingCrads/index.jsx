@@ -2,7 +2,6 @@ import React from 'react'
 import classes from "./weddingcards.module.css"
 import { Data } from '@/utility/data/wedcardsData'
 import { IconChevronLeft, IconChevronRight, IconStarFilled } from '@tabler/icons-react';
-import Image from 'next/image';
 
 
 const WeddingCards = () => {
@@ -18,7 +17,7 @@ const WeddingCards = () => {
                 <br />
                 <div className={classes.gridCards}>
                     {Data.map((value, index) => {
-                        return <div className={classes.outMainCards}>
+                        return <div key={index} className={classes.outMainCards}>
                             <div className={classes.overshadow}></div>
                             <div className={classes.wedCrads}> <img className={classes.imagefit} src={value?.image} alt="" /></div>
                             <div className={classes.textOnImg}>

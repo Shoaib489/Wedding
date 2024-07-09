@@ -16,7 +16,7 @@ const PreWedding = () => {
       <div className='p-[50px] relative top-12'>
         <div className={classes.gridCards}>
           {Data.map((value, index) => {
-            return <div className={classes.outMainCards}>
+            return <div key={index} className={classes.outMainCards}>
               <div className={classes.overshadow}></div>
               <div className={classes.wedCrads}> <img className={classes.imagefit} src={value?.image} alt="" /></div>
               <div className={classes.textOnImg}>
