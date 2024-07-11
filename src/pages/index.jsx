@@ -11,6 +11,7 @@ const index = () => {
       <FirstSection/>
       <WeddingCards/>
       <Footer/>
+      
     </div>
   )
 }

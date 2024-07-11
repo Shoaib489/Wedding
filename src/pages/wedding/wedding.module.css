@@ -1,0 +1,13 @@
+.playlist{
+    display: flex;
+    gap: 20px;
+    max-width: 1300px;
+    margin:60px auto;
+    overflow-x: auto;
+    border-radius: 10px;
+
+}
+.playlist::-webkit-scrollbar{
+    display:none;
+}
+
