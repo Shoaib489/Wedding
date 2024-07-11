@@ -2,6 +2,7 @@ import Navbar from '@/component/navbar'
 import React from 'react'
 import classes from "./wedding.module.css"
 import { KaranAujla } from '../../utility/playlist/songs'
+import Footer from '../../component/footer'
 
 const Wedding = () => {
   return (
@@ -23,6 +24,7 @@ const Wedding = () => {
       </div>
 
       {/* <p>{"Scroll ---->"}</p> */}
+      <Footer />
 
     </div>
   )

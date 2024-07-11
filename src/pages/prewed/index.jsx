@@ -2,6 +2,7 @@ import Navbar from '@/component/navbar'
 import { Data } from '@/utility/data/wedcardsData'
 import React from 'react'
 import classes from "../../component/weddingCrads/weddingcards.module.css"
+import Footer from '../../component/footer'
 
 
 const PreWedding = () => {
@@ -34,6 +35,8 @@ const PreWedding = () => {
         <iframe style={{borderRadius:"10px", overflow:"hidden"}} width="100%" height={700} src="https://www.youtube.com/embed/LK7-_dgAVQE?si=nddPcR_9LP4rWLlv" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen />
 
       </div>
+      <Footer />
+
     </div>
   )
 }
