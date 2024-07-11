@@ -15,7 +15,7 @@ const PreWedding = () => {
 
     <div>
       <Navbar />
-      <div className='p-[50px] relative top-12' style={{maxWidth:"1380px", margin:"auto"}}>
+      <div className='p-[20px] pt-10 relative top-12' style={{ maxWidth: "1380px", margin: "auto" }}>
         <div className={classes.gridCards}>
           {Data.map((value, index) => {
             return <div key={index} className={classes.outMainCards}>
@@ -31,8 +31,9 @@ const PreWedding = () => {
         </div>
       </div>
 
-      <div style={{maxWidth:"1380px", margin:"auto", padding:"50px"}}>
-        <iframe style={{borderRadius:"10px", overflow:"hidden"}} width="100%" height={700} src="https://www.youtube.com/embed/LK7-_dgAVQE?si=nddPcR_9LP4rWLlv" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen />
+      <div style={{ display: "grid", maxWidth: "1380px", margin: "50px auto", padding: "20px", border: "1px solid red", Height: "100%", width: "100%" }}>
+
+        <iframe className='flex' style={{ borderRadius: "10px",width:"100%",height:"700px" }} src="https://www.youtube.com/embed/LK7-_dgAVQE?si=nddPcR_9LP4rWLlv" title="YouTube video player" />
 
       </div>
       <Footer />
