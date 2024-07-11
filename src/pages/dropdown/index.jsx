@@ -20,12 +20,12 @@ const Dropdown = (props) => {
 
     return (
         <div className="relative inline-block" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-            <p className="cursor-pointer">{props.heading}</p>
+            <p  className="cursor-pointer">{props.heading}</p>
             {isOpen && (
                 <div className="absolute mt-[1px] w-[150px] rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5">
                     <ul>
                         {props.mainMap.map((value,index) => {
-                            return<li  onClick={() => handleItemClick('Option 1')}
+                            return<li key={index} onClick={() => handleItemClick('Option 1')}
                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 w-full text-left">
                                <Link href={value?.pathLink}> {value?.dropName}</Link>
                             </li>

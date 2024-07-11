@@ -16,7 +16,7 @@ const Navbar = () => {
           <div><Link href="/">home</Link></div>
           <div><Link href="/aboutus">about us</Link></div>
           <div>
-            <Dropdown heading={"films"} mainMap={firstDrop} />
+            <Dropdown  heading={"films"} mainMap={firstDrop} />
           </div>
           <div>
             <Dropdown heading={"port-folio"}  mainMap={secondDrop} />
